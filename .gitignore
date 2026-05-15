@@ -1,0 +1,52 @@
+# OS / editor cruft
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.cer
+secrets/
+credentials/
+.aws/
+.config/gh/
+
+# Build / runtime
+node_modules/
+dist/
+build/
+.cache/
+*.log
+
+# Large media (will be Git LFS when needed)
+*.psd
+*.ai
+*.sketch
+
+# Temporary working files
+*.tmp
+*.bak
+*.draft
+DRAFT-*
+SCRATCH-*
+
+# Personal / non-public attribution
+ADAM-*
+adam-*
+*-personal.md
+*-internal.md
